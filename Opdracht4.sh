@@ -6,3 +6,17 @@ do
 	done
 	printf "\n"
 done
+
+echo 
+
+for ((k=0; k<=9; k++))
+do
+	printf "#"
+	
+	for ((l=0; l<k; l++))
+	do
+		printf " "
+	done
+	
+	printf "#\n"
+done
